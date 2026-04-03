@@ -1,6 +1,6 @@
 -- Лабораторная работа - Модуль 10
 
--- Задание 1. Скалярный подзапрос - фильтрация
+-- Задание 1. Скалярный подзапрос  фильтрация
 SELECT
     o.last_name || ' ' || LEFT(o.first_name, 1) || '.' AS operator_name,
     SUM(fp.tons_mined) AS total_mined,
